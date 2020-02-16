@@ -1,0 +1,22 @@
+// demo5.cpp : 定义控制台应用程序的入口点。
+//
+
+#include "stdafx.h"
+/*
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	return 0;
+}
+*/
+#include"iostream"
+using namespace std;
+int main(){
+	float a = 4.5;
+	float b = 5.5;
+	int area = 0;
+	area = a * b;
+	cout << "area="<<area << endl;
+	system("pause");
+	return 0;
+}
